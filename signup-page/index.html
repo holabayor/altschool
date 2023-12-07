@@ -8,16 +8,22 @@
   </head>
   <body>
     <main class="container">
-      <div class="inner-container">
-        <img class="logo-img" src="logo.png" alt="Main logo" />
-        <h2>For Individuals</h2>
-        <p>
-          Start benefiting from the wellness experience. For companies looking
-          on increasing productivity, and improving organization wellness.
-        </p>
+      <div class="inner-container flex-center">
+        <div class="info-container">
+          <img class="logo-img" src="logo.png" alt="Main logo" />
+          <h1>For Individuals</h1>
+          <p class="desktop">
+            Start benefiting from the wellness experience. For companies looking
+            on increasing productivity, and improving organization wellness.
+          </p>
+          <p class="mobile">
+            Inspiring wholesome harmony for the mind, body and spirit, for
+            everyone, everywhere.
+          </p>
+        </div>
       </div>
       <div class="inner-container">
-        <form class="form" action="">
+        <form class="form" action="#">
           <div class="input-group">
             <label for="first-name">First Name</label>
             <input
@@ -29,15 +35,6 @@
           </div>
           <div class="input-group">
             <label for="last-name">Last Name</label>
-            <input
-              type="text"
-              name="last-name"
-              id="last-name"
-              placeholder="Last Name"
-            />
-          </div>
-          <div class="input-group">
-            <label for="gender">Gender</label>
             <input
               type="text"
               name="last-name"
@@ -75,7 +72,7 @@
               placeholder="Enter height here"
             />
           </div>
-          <div class="input-group">
+          <div class="input-group no-wrap">
             <label for="activity-level">Activity Level</label>
             <select name="activity-level" id="activity-level">
               <option value="">Select here</option>
@@ -83,7 +80,7 @@
               <option value="level-two">Level Two</option>
             </select>
           </div>
-          <div class="input-group">
+          <div class="input-group no-wrap">
             <label for="password">Password</label>
             <input
               type="password"
@@ -93,6 +90,11 @@
             />
           </div>
           <button type="submit">Register</button>
+
+          <p>
+            By clicking Register, you agree to our
+            <a href="#">Terms of Use</a> and our <a href="#">Privacy Policy</a>
+          </p>
         </form>
       </div>
     </main>
