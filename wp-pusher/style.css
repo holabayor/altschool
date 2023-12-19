@@ -133,7 +133,7 @@ li {
 .container {
   display: flex;
   width: 900px;
-  margin: 50px auto 20px;
+  margin: 100px auto 20px;
   border-radius: 8px;
   overflow: hidden;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
