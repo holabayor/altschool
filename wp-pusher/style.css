@@ -30,7 +30,7 @@ body {
   background-color: var(--color-background);
   width: 1440px;
   margin: 0 auto;
-  overflow: hidden;
+  /* overflow: hidden; */
   min-height: 100vh;
   font-weight: 400;
 }
@@ -259,6 +259,14 @@ form a {
   padding: 40px;
 }
 
+.details-container h4 {
+  font-size: 18px;
+}
+
+.pricing {
+  margin: 15px 0;
+}
+
 .pricing .price {
   font-size: 60px;
   font-weight: 300;
@@ -269,10 +277,6 @@ form a {
 
 .pricing .superscript {
   position: absolute;
-}
-
-.details-container h4 {
-  font-size: 18px;
 }
 
 .details-container a {
