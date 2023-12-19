@@ -28,6 +28,9 @@
 
 body {
   background-color: var(--color-background);
+  width: 1440px;
+  margin: 0 auto;
+  overflow: hidden;
   min-height: 100vh;
   font-weight: 400;
 }
@@ -40,7 +43,12 @@ li {
   display: flex;
 }
 
-.space-between {
+.center {
+  align-items: center;
+}
+
+.flex-between {
+  display: flex;
   justify-content: space-between;
 }
 
@@ -66,8 +74,16 @@ li {
   width: 100%;
 }
 
+.py-10 {
+  padding: 10px 0;
+}
+
 .px-40 {
   padding: 0 40px;
+}
+
+.my-5 {
+  margin: 5px 0;
 }
 
 .my-20 {
@@ -83,21 +99,11 @@ li {
 
 /* NAVBAR */
 .nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
   border-bottom: 2px solid var(--border-light);
 }
 
 .nav-bar .logo-img {
   width: 200px;
-}
-
-.nav-bar ul {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .nav-bar li {
@@ -113,7 +119,6 @@ li {
 
 .selected {
   border: 2px solid var(--border-dark);
-  color: red;
 }
 
 .nav-bar a {
@@ -125,7 +130,7 @@ li {
 /* MAIN */
 .container {
   display: flex;
-  max-width: 900px;
+  width: 900px;
   margin: 50px auto 20px;
   border-radius: 8px;
   overflow: hidden;
@@ -133,7 +138,7 @@ li {
 }
 
 .checkout-container {
-  flex: 2;
+  flex: 2.5;
   background-color: var(--color-white);
   padding: 40px 0;
 }
@@ -162,10 +167,7 @@ form .sub-heading {
   flex-basis: calc(50% - 20px);
   flex-direction: column;
   font-size: var(--font-size-sm);
-}
-
-form .input-group label {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 
 .no-wrap {
@@ -192,11 +194,6 @@ form .input-group input:hover {
 form .input-group input:focus {
   border-color: var(--color-green);
   outline: 1px solid var(--color-green);
-}
-
-.credit-card {
-  display: flex;
-  width: 100%;
 }
 
 form button {
@@ -262,10 +259,6 @@ form a {
   padding: 40px;
 }
 
-.details-container a {
-  color: white;
-}
-
 .pricing .price {
   font-size: 60px;
   font-weight: 300;
@@ -276,6 +269,24 @@ form a {
 
 .pricing .superscript {
   position: absolute;
+}
+
+.details-container h4 {
+  font-size: 18px;
+}
+
+.details-container a {
+  color: var(--color-white);
+  text-decoration: none;
+}
+
+.details-container .underline {
+  border-bottom: 3px solid #b9f5ff;
+}
+
+.details-container .ruler {
+  margin-top: 35px;
+  margin-bottom: 25px;
 }
 
 /* FOOTER */

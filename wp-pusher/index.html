@@ -7,9 +7,9 @@
     <link type="text/css" rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <nav class="nav-bar">
+    <nav class="flex-between center w-100 nav-bar">
       <img class="logo-img" src="./assets/wppusher-logo.png" alt="Main logo" />
-      <ul class="nav-links">
+      <ul class="flex-between center">
         <li>
           <a href="#">Download</a>
         </li>
@@ -59,7 +59,7 @@
             </div>
             <div class="flex gap-10">
               <div class="input-group">
-                <label for="first-name">First Name</label>
+                <label class="my-5" for="first-name">First Name</label>
                 <input
                   type="text"
                   name="first-name"
@@ -68,7 +68,7 @@
                 />
               </div>
               <div class="input-group">
-                <label for="last-name">Last Name</label>
+                <label class="my-5" for="last-name">Last Name</label>
                 <input
                   type="text"
                   name="last-name"
@@ -78,7 +78,7 @@
               </div>
             </div>
             <div class="input-group no-wrap">
-              <label for="email">Email</label>
+              <label class="my-5" for="email">Email</label>
               <input
                 type="email"
                 name="email"
@@ -113,22 +113,20 @@
             </div>
 
             <div class="input-group no-wrap">
-              <label for="credit-card-number">Credit Card</label>
-              <div class="credit-card">
-                <input
-                  type="text"
-                  name="credit-card-number"
-                  id="credit-card-number"
-                  placeholder="Card Number"
-                />
-                <input
-                  type="text"
-                  name="expiration-date"
-                  id="expiration-date"
-                  placeholder="MM/YY"
-                />
-                <input type="text" name="cvc" id="cvc" placeholder="CVC" />
-              </div>
+              <label class="my-5" for="credit-card-number">Credit Card</label>
+              <input
+                type="text"
+                name="credit-card-number"
+                id="credit-card-number"
+                placeholder="Card Number      
+                
+                
+                
+                
+            
+                
+                MM/YY           CVC"
+              />
             </div>
           </div>
           <button type="submit">Buy WP Pusher</button>
@@ -234,11 +232,10 @@
             Email support
           </p>
         </div>
-        <div>
-          <p>
-            Need &nbsp;<strong>20</strong>&nbsp; client sites? <br />
-            <a href="#" class="bold">Switch to the Agency plan</a>
-          </p>
+        <div class="py-10">
+          <span> Need &nbsp;<strong>20</strong>&nbsp; client sites? </span>
+          <br />
+          <a href="#" class="underline bold">Switch to the Agency plan</a>
         </div>
         <div class="ruler"></div>
         <div>
