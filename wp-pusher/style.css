@@ -199,19 +199,6 @@ form .input-group input:focus {
   width: 100%;
 }
 
-/* .credit-card input:hover,
-.credit-card input:focus {
-  border: none !important;
-  outline: none !important;
-}
-
-.credit-card input:first-child {
-  flex: 8 !important;
-}
-.credit-card input:nth-child(n + 2) {
-  flex: 2 !important;
-} */
-
 form button {
   width: 100%;
   height: 50px;
@@ -301,18 +288,4 @@ footer {
 footer a {
   text-decoration: none;
   color: var(--font-blue);
-}
-
-/* Media Queries */
-@media screen and (max-width: 768px) {
-  .container {
-    flex-direction: column;
-  }
-
-  .nav-bar ul {
-    display: none;
-  }
-}
-
-@media screen and (max-width: 320px) {
 }
